@@ -6,12 +6,12 @@ Hi:) Eleanor here. This repository contains my solutions to the Code Challenge. 
 
 ### Challenge 1: Three ways to sum to n
 
-**Code:** [Link to Solution 1](src/problem1)
+**Code:** [Solution to Problem 1](src/problem1)
 
 ### Challenge 2: Fancy Form
 
-**Code:** [Link to Solution 1](src/problem2)
+**Code:** [Solution to Problem 2](src/problem2)
 
 ### Challenge 3: Messy React
 
-**Code:** [Link to Solution 1](src/problem3)
+**Code:** [Solution to Problem 3](src/problem3)
