@@ -1,6 +1,6 @@
 # Switcheo Code Challenge Solutions - Frontend
 
-This repository contains my solutions to the Switcheo Code Challenge. Below, you'll find information on the challenge problems, my solutions, and instructions on how to run them.
+Hi:) Eleanor here. This repository contains my solutions to the Code Challenge. Below, I've included information on the challenge problems and my solutions.
 
 ## Solutions
 
