@@ -1,26 +1,53 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Swap Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/ccxt@1.51.82/dist/ccxt.browser.js"></script>
+  </head>
 
-<head>
-  <title>Fancy Form</title>
+  <body>
+    <div class="wrapper">
 
-  <!-- You may add more stuff here -->
-  <link href="style.css" rel="stylesheet" />
-</head>
+      <header>Currency Swapper</header>
 
-<body>
+      <form action="">
+        <div class="amount">
+          <p>Amount to Send</p>
+          <div class="input-group">
+            <input type="text" value="" id="amountInput" />
+            <select class="currency-select" id="currencySelect">
+            </select>
+          </div>
+        </div>
+        
+      </form>
 
-  <!-- You may reorganise the whole HTML, as long as your form achieves the same effect. -->
-  <form onsubmit="return !1">
-    <h5>Swap</h5>
-    <label for="input-amount">Amount to send</label>
-    <input id="input-amount" />
+      <div class="button-container">
+        <button type="button" id="exchangeButton">
+          <img src="Exchange Rate.png" alt="Currency">
+        </button>
+      </div>
 
-    <label for="output-amount">Amount to receive</label>
-    <input id="output-amount" />
-
-    <button>CONFIRM SWAP</button>
-  </form>
-  <script src="script.js"></script>
-</body>
-
+      <form action="">
+        <div class="amount">
+          <p>Amount to Receive</p>
+          <div class="input-group">
+            <input type="text" value="" id="receiveAmountInput" />
+            <select class="currency-select" id="receiveCurrencySelect">
+            </select>
+          </div>
+        </div>
+        </form>
+      <div class="exchange_rate"></div>
+      <div>
+        <button id="getExchangeRateButton">Confirm Swap</button>
+        <button id="resetButton">Reset</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>

@@ -1,8 +1,160 @@
-body {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  min-width: 360px;
-  font-family: Arial, Helvetica, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+* {
+  font-family: "Varela Round", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #5d55fa;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.wrapper {
+  width: 500px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.wrapper header {
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+  color: #5540af;
+}
+
+.wrapper form {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  padding: 25px;
+  border-radius: 18px;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper form p {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.wrapper form input {
+  width: calc(100% - 30px);
+  height: 70px;
+  border-radius: 5px;
+  border: transparent;
+  font-size: 40px;
+  background-color: #f7f7f7;
+  margin-bottom: 5px;
+  padding: 10px 15px; 
+}
+
+.wrapper form input:focus {
+  outline: none;
+  border-color:transparent;
+}
+
+.exchange_rate {
+  font-size: 18px;
+  color: #333;
+  margin: 20px 0 30px;
+  font-weight: bold;
+}
+
+button {
+  height: 55px;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  border: none;
+  background: linear-gradient(45deg, #8e2de2, #2e0189);
+  color:rgb(246, 237, 250);
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background: linear-gradient(45deg, #9d50bb, #6e48aa);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.button-container {
+  position: absolute;
+  top: 44%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+#exchangeButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white; 
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0 0 0 2px rgba(52, 14, 132, 0.816);
+}
+
+#exchangeButton img {
+  width: 70%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+#exchangeButton:hover img {
+  transform: scale(1.1);
+}
+
+
+.currency-select {
+  appearance: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  background-color: white;
+  cursor: pointer;
+  font-size: 16px;
+  display: inline-block;
+  position: relative;
+}
+
+.currency-select:focus {
+  outline: none;
+  border-color: purple;
+  box-shadow: 0 0 0 2px rgba(128, 0, 128, 0.2);
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+}
+
+.input-group input,
+.input-group select {
+  flex-grow: 1;
+  height: 40px;
+  border: 1px solid #6101775f;
+  padding: 0 10px;
+}
+
+
+
+
+
