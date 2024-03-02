@@ -6,12 +6,12 @@ This repository contains my solutions to the Switcheo Code Challenge. Below, you
 
 ### Challenge 1: Three ways to sum to n
 
-**Code:** [src/problem1]
+**Code:** [Link to Solution 1](src/problem1)
 
 ### Challenge 2: Fancy Form
 
-**Code:** [src/problem2]
+**Code:** [Link to Solution 1](src/problem2)
 
 ### Challenge 3: Messy React
 
-**Code:** [src/problem3]
+**Code:** [Link to Solution 1](src/problem3)
