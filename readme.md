@@ -1,10 +1,17 @@
-# Switcheo Code Challenge #1 #
+# Switcheo Code Challenge Solutions - Frontend
 
-Kindly **do not fork** this repository as your responses may be publicly linked to this repository.
-Please submit your application along with the solutions attached or linked.   
+This repository contains my solutions to the Switcheo Code Challenge. Below, you'll find information on the challenge problems, my solutions, and instructions on how to run them.
 
-It is important that you minimally attempt the problems, even if you do not arrive at a working solution.
+## Solutions
 
-## Submission ##
-You can either provide a link to an online repository, attach the solution in your application, or whichever method you prefer.
-We're cool as long as we can view your solution without any pain.
+### Challenge 1: Three ways to sum to n
+
+**Code:** [Link to the solution file or directory]
+
+### Challenge 2: Fancy Form
+
+**Code:** [Link to the solution file or directory]
+
+### Challenge 3: Messy React
+
+**Code:** [Link to the solution file or directory]
